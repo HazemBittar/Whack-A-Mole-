@@ -30,7 +30,6 @@ h1::before {
     opacity: 0;
     left: 0;
     right: 10;
-    background-color: var(--secondary-color);
     transform: scale(.5);
     animation: .5s slideIn ease-in-out forwards, 1s skewBg ease-in-out;
 }
