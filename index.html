@@ -1,57 +1,51 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack A Mole!</title>
+    <link href="./style.css" rel="stylesheet" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Whack A Mole!</title>
-  <link href="./style.css" rel="stylesheet" />
+    <!-- load the testing dependencies -->
+    <script src="./dependencies/chai.js"></script>
+    <script src="./dependencies/describe-it.js"></script>
 
-  <!-- load the testing dependencies -->
-  <script src='./dependencies/chai.js'></script>
-  <script src='./dependencies/describe-it.js'></script>
+    <!-- load the rest of your files -->
+  </head>
 
-  <!-- load the rest of your files -->
+  <body>
+    <h1>Whack-a-mole! <span class="score">0</span></h1>
+    <button class="btn" onClick="startGame()">Start!</button>
 
+    <div class="game">
+      <div class="hole hole1">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole2">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole3">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole4">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole5">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole6">
+        <div class="mole"></div>
+      </div>
+    </div>
 
-</head>
-
-<body>
-<h1>Whack-a-mole! <span class="score">0</span></h1>
-<button class="btn" onClick="startGame()">Start!</button>
-
-<div class="game">
-  <div class="hole hole1">
-    <div class="mole"></div>
-  </div>
-  <div class="hole hole2">
-    <div class="mole"></div>
-  </div>
-  <div class="hole hole3">
-    <div class="mole"></div>
-  </div>
-  <div class="hole hole4">
-    <div class="mole"></div>
-  </div>
-  <div class="hole hole5">
-    <div class="mole"></div>
-  </div>
-  <div class="hole hole6">
-    <div class="mole"></div>
-  </div>
-</div>
-
-
-
-
-  <!-- Leave this here, it renders the review buttons
+    <!-- Leave this here, it renders the review buttons
       write your code above this script tag  -->
-  <script src='./dependencies/review-buttons.js'></script>
-  <script src="./scripts/script-variables.js"></script>
-  <script src="./scripts/handlers/score.js"></script>
-  <script src="./scripts/listeners/show_score.js"></script>
-
-
-</body>
-
+    <script src="./dependencies/review-buttons.js"></script>
+    <script src="./scripts/script-variables.js"></script>
+    <script src="./scripts/handlers/score.js"></script>
+    <script src="./scripts/listeners/show_score.js"></script>
+    <script src="./scripts/logic/randomHole.js"></script>
+    <script src="./scripts/logic/randomTime.js"></script>
+    <script src="./scripts/handlers/peep.js"></script>
+  </body>
 </html>
