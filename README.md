@@ -90,7 +90,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Iyrna](https://github.com/IrynaSpyrydonova)
 - [Hazem](https://github.com/HazemBittar)
 
-Project Link: [Chrome-landing-page](https://github.com/HazemBittar/Whack-A-Mole-)
+Project Link: [Whack-A-Mole](https://github.com/HazemBittar/Whack-A-Mole-)
 
 <!-- ACKNOWLEDGEMENTS -->
 
