@@ -44,7 +44,6 @@ h1::before {
         opacity: 1;
     }
 }
-*/
 
 .score {
     background: rgba(255, 255, 255, 0.2);
@@ -52,6 +51,7 @@ h1::before {
     line-height: 1;
     border-radius: 1rem;
 }
+
 .btn {
  margin-top:100px;
     left: 20px;
