@@ -1,0 +1,1 @@
+levels.addEventListener("change", difficultyLevelHandler);
