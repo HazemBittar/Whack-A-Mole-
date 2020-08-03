@@ -1,4 +1,5 @@
 const holes = document.querySelectorAll(".hole");
+const games = document.querySelector(".game");
 const scoreBoard = document.querySelector(".score");
 const moles = document.querySelectorAll(".mole");
 const levels = document.getElementById("user-input");
