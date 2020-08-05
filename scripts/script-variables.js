@@ -3,6 +3,7 @@ const games = document.querySelector(".game");
 const scoreBoard = document.querySelector(".score");
 const moles = document.querySelectorAll(".mole");
 const levels = document.getElementById("user-input");
+const gameStarter = document.querySelector(".btn");
 let lastHole;
 let timeUp = false;
 let score = 0;
