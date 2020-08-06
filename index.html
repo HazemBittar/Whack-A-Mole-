@@ -17,19 +17,23 @@
     <script src="./scripts/logic/randomTime.js"></script>
     <script src="./scripts/handlers/peep.js"></script>
     <script src="./scripts/handlers/difficultyLevel.js"></script>
+
+    
   </head>
 
   <body>
     <h1>Whack-a-mole! <span class="score">0</span></h1>
     <button class="btn" >Start!</button>
+  &nbsp; &nbsp; &nbsp;
     <form id="user-input">
-      Select difficulty level
-      <select name="level">
+      <select name="level" class="select-css" >
+      <option> Select difficulty level</option>
         <option value="normal">Normal</option>
         <option value="easy">Easy</option>
         <option value="difficult">Difficult</option>
       </select>
       </form>
+  
       <div class="container">
         <h3 class='greeting'>Please enter your name to save your success</h3>
         <form>
