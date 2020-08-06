@@ -1,5 +1,5 @@
 function peep() {
-  const time = randomTime(200, 1000);
+  const time = randomTime(minTime, maxTime);
   const hole = randomHole(holes);
   hole.classList.add("up");
   setTimeout(() => {

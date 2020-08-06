@@ -16,12 +16,19 @@
     <script src="./scripts/logic/randomHole.js"></script>
     <script src="./scripts/logic/randomTime.js"></script>
     <script src="./scripts/handlers/peep.js"></script>
+    <script src="./scripts/handlers/difficultyLevel.js"></script>
   </head>
 
   <body>
     <h1>Whack-a-mole! <span class="score">0</span></h1>
-    <button class="btn" onClick="startGame()">Start!</button>
-
+    <button class="btn" >Start!</button>
+    <form id="user-input">
+      Select difficulty level
+      <select name="level">
+        <option value="normal">Normal</option>
+        <option value="easy">Easy</option>
+        <option value="difficult">Difficult</option>
+      </select>
     <div class="game">
       <div class="hole hole1">
         <div class="mole"></div>
@@ -48,5 +55,6 @@
     <script src="./dependencies/review-buttons.js"></script>
     <script src="./scripts/script-variables.js"></script>
     <script src="./scripts/listeners/show_score.js"></script>
+    <script src="./scripts/listeners/level.js"></script>
   </body>
 </html>

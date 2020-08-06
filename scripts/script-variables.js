@@ -1,6 +1,11 @@
-const holes = document.querySelectorAll('.hole');
-const scoreBoard = document.querySelector('.score');
-const moles = document.querySelectorAll('.mole');
+const holes = document.querySelectorAll(".hole");
+const games = document.querySelector(".game");
+const scoreBoard = document.querySelector(".score");
+const moles = document.querySelectorAll(".mole");
+const levels = document.getElementById("user-input");
+const gameStarter = document.querySelector(".btn");
 let lastHole;
 let timeUp = false;
 let score = 0;
+let minTime = 300;
+let maxTime = 1500;
