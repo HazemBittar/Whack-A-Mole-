@@ -9,6 +9,7 @@ function bonk() {
     score++;
     this.parentNode.classList.remove("up");
     scoreBoard.textContent = score;
+    localStorage.setItem('mostRecentScore', score);
   } else {
     return;
   }

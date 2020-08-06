@@ -29,6 +29,28 @@
         <option value="easy">Easy</option>
         <option value="difficult">Difficult</option>
       </select>
+      </form>
+      <div class="container">
+        <h3 class='greeting'>Please enter your name to save your success</h3>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="btn-save"
+            id="saveScoreBtn"
+            disabled
+          >
+            Save
+          </button>
+        </form>
+        <h2 id = "scoreList"></h2>
+        <ol id = "highScoresList"></ol>
+    </div>
     <div class="game">
       <div class="hole hole1">
         <div class="mole"></div>
@@ -54,7 +76,10 @@
       write your code above this script tag  -->
     <script src="./dependencies/review-buttons.js"></script>
     <script src="./scripts/script-variables.js"></script>
+    <script src="./scripts/handlers/score_board.js"></script>
     <script src="./scripts/listeners/show_score.js"></script>
     <script src="./scripts/listeners/level.js"></script>
+    <script src="./scripts/listeners/username.js"></script>
+    <script src="./scripts/listeners/saveScore.js"></script>
   </body>
 </html>
