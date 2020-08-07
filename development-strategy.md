@@ -136,7 +136,7 @@ DOM
 
 > assigned to Iyrna
 ---
-## 9. User Story: score
+## 10. User Story: start the Game
 
 __when a user click on the start button the game will start__
 
@@ -148,7 +148,31 @@ __when a user click on the start button the game will start__
 > assigned to Hazem
 ---
 
-## 10. Documentation
+## 11. User Story: difficulty levels
+
+__a user can choose the level of difficulty, what he prefer to play__
+
+
+### handlers:
+
+- Create a `difficultyLevelHandler` handler that will activate the change event. 
+
+> assigned to Fatih
+---
+
+## 12. User Story: see the best players
+
+__when a user save his name, he can see the top 3 results of the game__
+
+
+### handlers:
+
+- Create a `saveHighScore` handler that will activate the onclick event in the element button. 
+
+> assigned to Iryna
+---
+
+## 13. Documentation
 _the user can see a writen development stratagy file and a README file.
 
 > assigned to Gelila and Fatih perspectively
