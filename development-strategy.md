@@ -160,7 +160,7 @@ __a user can choose the level of difficulty, what he prefer to play__
 > assigned to Fatih
 ---
 
-## 12. User Story: see the best players
+## 12. User Story: see the best 3 players
 
 __when a user save his name, he can see the top 3 results of the game__
 
